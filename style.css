@@ -1,0 +1,38 @@
+.flexContainer:last-child { margin-top: 2em; }
+body { margin: 0; padding: 0; }
+div { height: 50px; width: 50px; }
+div:nth-child(1) { background-color: red; width: 80px; height: 80px;}
+div:nth-child(2) { background-color: blue; }
+div:nth-child(3) { background-color: green; }
+div:nth-child(4) { background-color: yellow; }
+div:nth-child(5) { background-color: purple; }
+div:nth-child(6) { background-color: black; }
+div:nth-child(7) { background-color: orangered; }
+div:nth-child(8) { background-color: silver; }
+/*fim do setup*/
+
+
+.flexContainer {
+    display: flex;
+    /*justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;*/
+}
+
+.flexItem {
+    /*flex-grow: 1;
+    flex-shrink: 1;*/
+    /*flex-basis: 200px; /*define uma largura para os elementos = width */
+    flex: 0 1 200px;
+    
+}
+
+/*.primeiroElemento {
+    flex-shrink: 2;
+}*/
+
+/*link de referência:
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+*/
+
